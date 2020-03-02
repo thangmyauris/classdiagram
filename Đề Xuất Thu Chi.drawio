@@ -1,1 +1,28 @@
-<mxfile host="www.draw.io" modified="2020-03-02T04:40:13.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="Q-YkiFE-ypTGf4HFWT2q" version="12.7.9" type="github"><diagram id="yL14I6VkNxx4xK0A027b" name="Page-1">7Vddb9owFP01VreHTvkgFB5JKKs0KqHSrtNekElMYuHYkeMM2l+/69ghhI+Jbqv2MglR+/j6hnvOPReK/Cjffpa4yO5FQhjynGSL/DHyvF7PGcAfjbwYxHN9zyCppInB3BaY01diQceiFU1I2QlUQjBFiy4YC85JrDoYllJsumErwbpPLXBKjoB5jNkx+kwTlRl0EDgtfkdomjVPdh17kuMm2AJlhhOx2YP8W+RHUghlVvk2Ikyz1/Bi7k3OnO4+mCRcXXLhDt84XxWbzO+zIHyaPX+/i7bXVowfmFW2YBT10NBBty4KQzSApzjfqno3QqNAwfYxq+A9yqgtS700XEGFhV5WOZtInMMy3GRUkXmBY41voEcAy1TOYOfC0j6dSEW2Z8tyd2RBmxGREyVfIGTTyuE5Q0tytq+F16DYNkG6u93yBAtL1RtoGx7R9lQSOa+WDwLIOOJlQ3OGueZjJbia2xNNAGY05bCOoVoiAdBcUGi/kT1QQlMWZ5QlU/wiKl1bqXC8bnZhJiR9hbS4IRWOpbJO8vqdiLm+CbADqCQlxMwaot0D6B5vO4FTXCoLxIIxXJR0uSsjxzKlPBRKidwG/Ym09sKNlc/Ojr7d7gnv+yd09733kr0ZSvt28UJdU7VkNK5Vx6peIK8ndS/4IxRARB95vmtocXavKyUrwdNFkcH7lcZ0yn6qTNzVo0RRH4WNGYcTngI8y1Dko9Crr0TnUq/JQgnMT2T9Yt0cTrSZhU42cvmvcimCc0ZwcuojwhH8nZrTToZgjCIPjZxO1rACnyyAZJ1ppPmGvk+h8ztBgDfkwbgnW3VkqRrUrS7FmkSCCfDOmAvjMcrYAdTYjJGVOmuyEsYU5em0jhn3WuTB9paGBNxdsXqOZzRJCNcGEaA6Nm7QFRQCqqp7D6QPQD8vcj4FmhBgKAjddg8vHS5VJDjUgmltDAJW25BSXeqi8yPq2FrN93D/Mi+5N7338pJ7wksHKjNaq2dUbr5+3d+SOAexGGk1fdSSj6/dI939Y939ExozvCRsJkqqqND5pYk90P6fyetcOCsH76XuiR8W4Ot6INByEVdS17cw06BcrIkeVh/M9PxofC+JqiSHxRJ+7xHMD0bEuVRmptYj9Q359pb/J81fbsXBhaOm6Zk3NCNs2x/Q9dne/yH+7U8=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-02T04:51:58.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="qbC2jtes8xOdVoagY1wd" version="12.7.9" type="github">
+  <diagram id="yL14I6VkNxx4xK0A027b" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-2" value="Đề Xuất Thu Chi" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry width="2090" height="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-9" value="UserSubRole" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-10" value="+ public static $role:[&#xa;    &#39;truong_phong&#39; =&gt; &#39;Trưởng Phòng&#39;,&#xa;    &#39;ke_toan&#39; =&gt; &#39;Kế Toán&#39;,&#xa;    &#39;teamlead&#39; =&gt; &#39;Team Lead&#39;,&#xa;] &#xa;+user_id : integer&#xa;+ role: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
+          <mxGeometry y="26" width="330" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
+          <mxGeometry y="200" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-12" value="+ is_current_user_is_ketoan(static): return boolean&#xa;+ is_current_user_is_truongphong(static): return boolean&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
+          <mxGeometry y="208" width="330" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="-VvYbmVXf2OlPUuyv7bb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
