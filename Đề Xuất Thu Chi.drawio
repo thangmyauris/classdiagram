@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-11T07:57:28.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="1T1CiCi7-6ZTmmDtZwyU" version="12.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-16T08:15:52.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="LUhJMT5LjX5EO7odEccb" version="12.8.5" type="github">
   <diagram id="yL14I6VkNxx4xK0A027b" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,10 +18,10 @@
         <mxCell id="Ha70VtlFSMh5BUPWZHCx-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
           <mxGeometry y="200" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Ha70VtlFSMh5BUPWZHCx-12" value="+ is_current_user_is_ketoan(static): return boolean&#xa;+ is_current_user_is_truongphong(static): return boolean&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
+        <mxCell id="Ha70VtlFSMh5BUPWZHCx-12" value="+ is_current_user_is_ketoan(static): return boolean&#xa;+ is_current_user_is_truongphong(static): return boolean&#xa;+ is_current_user_is_leader(static): return boolean&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ha70VtlFSMh5BUPWZHCx-9" vertex="1">
           <mxGeometry y="208" width="330" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="UBMGNuRcCfinMaLwk45K-1" value="Cấp quyền đề xuất chi cần:&lt;br&gt;Chi&lt;br&gt;Comment&lt;br&gt;Hoso" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UBMGNuRcCfinMaLwk45K-1" value="Cấp quyền đề xuất chi cần:&lt;br&gt;Chi&lt;br&gt;Comment&lt;br&gt;Hoso&lt;br&gt;Notification" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="100" width="120" height="210" as="geometry" />
         </mxCell>
       </root>
